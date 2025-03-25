@@ -1,0 +1,6 @@
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\Telefon\bin\Debug\Telefon.dll
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\Telefon\bin\Debug\Telefon.pdb
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\Telefon\obj\Debug\Telefon.csproj.AssemblyReference.cache
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\Telefon\obj\Debug\Telefon.csproj.CoreCompileInputs.cache
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\Telefon\obj\Debug\Telefon.dll
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\Telefon\obj\Debug\Telefon.pdb

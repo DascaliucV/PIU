@@ -1,0 +1,11 @@
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\Homework\bin\Debug\Homework.exe.config
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\Homework\bin\Debug\Homework.exe
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\Homework\bin\Debug\Homework.pdb
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\Homework\obj\Debug\Homework.csproj.AssemblyReference.cache
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\Homework\obj\Debug\Homework.csproj.CoreCompileInputs.cache
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\Homework\obj\Debug\Homework.exe
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\Homework\obj\Debug\Homework.pdb
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\Homework\bin\Debug\NivelStocareDate.exe
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\Homework\bin\Debug\NivelStocareDate.pdb
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\Homework\bin\Debug\NivelStocareDate.exe.config
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\Homework\obj\Debug\Homework.csproj.Up2Date

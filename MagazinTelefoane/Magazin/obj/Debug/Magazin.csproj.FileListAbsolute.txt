@@ -1,0 +1,2 @@
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\Magazin\obj\Debug\Magazin.csproj.AssemblyReference.cache
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\Magazin\obj\Debug\Magazin.csproj.CoreCompileInputs.cache

@@ -1,0 +1,12 @@
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\MagazinTelefoane\obj\Debug\MagazinTelefoane.csproj.AssemblyReference.cache
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\MagazinTelefoane\obj\Debug\MagazinTelefoane.csproj.CoreCompileInputs.cache
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\MagazinTelefoane\obj\Debug\MagazinTelefoane.Properties.Resources.resources
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\MagazinTelefoane\obj\Debug\MagazinTelefoane.csproj.GenerateResource.cache
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\MagazinTelefoane\bin\Debug\MagazinTelefoane.exe.config
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\MagazinTelefoane\bin\Debug\MagazinTelefoane.exe
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\MagazinTelefoane\bin\Debug\MagazinTelefoane.pdb
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\MagazinTelefoane\bin\Debug\Telefon.dll
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\MagazinTelefoane\bin\Debug\Telefon.pdb
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\MagazinTelefoane\obj\Debug\MagazinT.AF9FA287.Up2Date
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\MagazinTelefoane\obj\Debug\MagazinTelefoane.exe
+C:\Users\Valentin Baros\Desktop\PROIECTE PIU\MagazinTelefoane\MagazinTelefoane\obj\Debug\MagazinTelefoane.pdb
