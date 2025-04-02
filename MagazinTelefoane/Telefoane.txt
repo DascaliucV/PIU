@@ -1,0 +1,4 @@
+iPhone 13,4000,Alb,128
+Samsung S22,3500,Negru,256
+Motorola E14, 1000, Verde, 64
+Huawei nova 12i, 2000, Violet, 128

@@ -1,0 +1,15 @@
+C:\Users\Valentin Baros\Desktop\PROIECT PIU\MagazinTelefoane\MagazinTelefoane_UI_WindowsForms\obj\Debug\MagazinTelefoane_UI_WindowsForms.csproj.AssemblyReference.cache
+C:\Users\Valentin Baros\Desktop\PROIECT PIU\MagazinTelefoane\MagazinTelefoane_UI_WindowsForms\obj\Debug\MagazinTelefoane_UI_WindowsForms.Properties.Resources.resources
+C:\Users\Valentin Baros\Desktop\PROIECT PIU\MagazinTelefoane\MagazinTelefoane_UI_WindowsForms\obj\Debug\MagazinTelefoane_UI_WindowsForms.csproj.GenerateResource.cache
+C:\Users\Valentin Baros\Desktop\PROIECT PIU\MagazinTelefoane\MagazinTelefoane_UI_WindowsForms\obj\Debug\MagazinTelefoane_UI_WindowsForms.csproj.CoreCompileInputs.cache
+C:\Users\Valentin Baros\Desktop\PROIECT PIU\MagazinTelefoane\MagazinTelefoane_UI_WindowsForms\bin\Debug\MagazinTelefoane_UI_WindowsForms.exe.config
+C:\Users\Valentin Baros\Desktop\PROIECT PIU\MagazinTelefoane\MagazinTelefoane_UI_WindowsForms\bin\Debug\MagazinTelefoane_UI_WindowsForms.exe
+C:\Users\Valentin Baros\Desktop\PROIECT PIU\MagazinTelefoane\MagazinTelefoane_UI_WindowsForms\bin\Debug\MagazinTelefoane_UI_WindowsForms.pdb
+C:\Users\Valentin Baros\Desktop\PROIECT PIU\MagazinTelefoane\MagazinTelefoane_UI_WindowsForms\bin\Debug\NivelStocareDate.exe
+C:\Users\Valentin Baros\Desktop\PROIECT PIU\MagazinTelefoane\MagazinTelefoane_UI_WindowsForms\bin\Debug\Telefon.dll
+C:\Users\Valentin Baros\Desktop\PROIECT PIU\MagazinTelefoane\MagazinTelefoane_UI_WindowsForms\bin\Debug\NivelStocareDate.pdb
+C:\Users\Valentin Baros\Desktop\PROIECT PIU\MagazinTelefoane\MagazinTelefoane_UI_WindowsForms\bin\Debug\NivelStocareDate.exe.config
+C:\Users\Valentin Baros\Desktop\PROIECT PIU\MagazinTelefoane\MagazinTelefoane_UI_WindowsForms\bin\Debug\Telefon.pdb
+C:\Users\Valentin Baros\Desktop\PROIECT PIU\MagazinTelefoane\MagazinTelefoane_UI_WindowsForms\obj\Debug\MagazinT.5D54A245.Up2Date
+C:\Users\Valentin Baros\Desktop\PROIECT PIU\MagazinTelefoane\MagazinTelefoane_UI_WindowsForms\obj\Debug\MagazinTelefoane_UI_WindowsForms.exe
+C:\Users\Valentin Baros\Desktop\PROIECT PIU\MagazinTelefoane\MagazinTelefoane_UI_WindowsForms\obj\Debug\MagazinTelefoane_UI_WindowsForms.pdb

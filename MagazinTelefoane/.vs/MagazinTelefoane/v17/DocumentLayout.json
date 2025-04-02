@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Valentin Baros\\Desktop\\PROIECTE PIU\\MagazinTelefoane\\",
+  "WorkspaceRootPath": "C:\\Users\\Valentin Baros\\Desktop\\PROIECT PIU\\MagazinTelefoane\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6499572-9863-4BCA-8949-B8323181DA9E}|Homework\\Homework.csproj|C:\\Users\\Valentin Baros\\Desktop\\PROIECTE PIU\\MagazinTelefoane\\homework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6499572-9863-4BCA-8949-B8323181DA9E}|Homework\\Homework.csproj|solutionrelative:homework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62172A73-989D-47DA-AF27-35A414B7503D}|MagazinTelefoane_UI_WindowsForms\\MagazinTelefoane_UI_WindowsForms.csproj|c:\\users\\valentin baros\\desktop\\proiect piu\\magazintelefoane\\magazintelefoane_ui_windowsforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62172A73-989D-47DA-AF27-35A414B7503D}|MagazinTelefoane_UI_WindowsForms\\MagazinTelefoane_UI_WindowsForms.csproj|solutionrelative:magazintelefoane_ui_windowsforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62172A73-989D-47DA-AF27-35A414B7503D}|MagazinTelefoane_UI_WindowsForms\\MagazinTelefoane_UI_WindowsForms.csproj|c:\\users\\valentin baros\\desktop\\proiect piu\\magazintelefoane\\magazintelefoane_ui_windowsforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{62172A73-989D-47DA-AF27-35A414B7503D}|MagazinTelefoane_UI_WindowsForms\\MagazinTelefoane_UI_WindowsForms.csproj|solutionrelative:magazintelefoane_ui_windowsforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Valentin Baros\\Desktop\\PROIECTE PIU\\MagazinTelefoane\\Homework\\Program.cs",
-              "RelativeDocumentMoniker": "Homework\\Program.cs",
-              "ToolTip": "C:\\Users\\Valentin Baros\\Desktop\\PROIECTE PIU\\MagazinTelefoane\\Homework\\Program.cs",
-              "RelativeToolTip": "Homework\\Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwDgAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Valentin Baros\\Desktop\\PROIECT PIU\\MagazinTelefoane\\MagazinTelefoane_UI_WindowsForms\\Form1.cs",
+              "RelativeDocumentMoniker": "MagazinTelefoane_UI_WindowsForms\\Form1.cs",
+              "ToolTip": "C:\\Users\\Valentin Baros\\Desktop\\PROIECT PIU\\MagazinTelefoane\\MagazinTelefoane_UI_WindowsForms\\Form1.cs [Design]*",
+              "RelativeToolTip": "MagazinTelefoane_UI_WindowsForms\\Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T21:21:50.168Z",
+              "WhenOpened": "2025-04-01T23:39:33.873Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Valentin Baros\\Desktop\\PROIECT PIU\\MagazinTelefoane\\MagazinTelefoane_UI_WindowsForms\\Form1.cs",
+              "RelativeDocumentMoniker": "MagazinTelefoane_UI_WindowsForms\\Form1.cs",
+              "ToolTip": "C:\\Users\\Valentin Baros\\Desktop\\PROIECT PIU\\MagazinTelefoane\\MagazinTelefoane_UI_WindowsForms\\Form1.cs*",
+              "RelativeToolTip": "MagazinTelefoane_UI_WindowsForms\\Form1.cs*",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAuwIwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T23:51:52.379Z",
               "EditorCaption": ""
             }
           ]
