@@ -1,0 +1,2 @@
+iPhone,2500,verde,32
+Samsung,3000,verde,64
