@@ -1,5 +1,4 @@
-﻿// Form1.cs complet pentru tema cerută
-using System;
+﻿using System;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
@@ -92,6 +91,21 @@ namespace MagazinTelefoane_UI_WindowsForms
             };
             btnRefresh.Click += (s, e) => AfiseazaTabel();
             this.Controls.Add(btnRefresh);
+
+            Button btnCautare = new Button()
+            {
+                Text = "Caută",
+                Top = 190,
+                Left = 270,
+                Width = 100
+            };
+            btnCautare.Click += (s, e) =>
+            {
+                Form2 f2 = new Form2();
+                f2.ShowDialog();
+            };
+            this.Controls.Add(btnCautare);
+
 
             AfiseazaTabel();
         }

@@ -1,2 +1,4 @@
-iPhone,2500,verde,32
+iPhone 12,2500,verde,32
 Samsung,3000,verde,64
+Motorola,1500,Rosu,16
+iPhone X,2100,gold,64
