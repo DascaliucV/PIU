@@ -1,4 +1,8 @@
-iPhone 12,2500,verde,32
-Samsung,3000,verde,64
-Motorola,1500,Rosu,16
-iPhone X,2100,gold,64
+iPhone 12,2500,verde,32,NU,NU
+Samsung,3000,verde,64,NU,NU
+Motorola,1500,Rosu,16,NU,NU
+iPhone X,2100,gold,64,NU,NU
+iPhone 13,3000,rosu,128,NU,NU	Google Pixel,3100,alb,128,DA,DA
+Google Pixel,3100,negru,128,DualSIM,5G
+iPhone 16,6000,gri,512,DualSIM,5G
+iPhone 15,5600,alb,256,DualSIM,5G

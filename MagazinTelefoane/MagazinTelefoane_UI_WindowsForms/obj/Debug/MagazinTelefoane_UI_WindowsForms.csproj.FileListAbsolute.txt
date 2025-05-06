@@ -13,3 +13,5 @@ C:\Users\Valentin Baros\Desktop\PROIECT PIU\MagazinTelefoane\MagazinTelefoane_UI
 C:\Users\Valentin Baros\Desktop\PROIECT PIU\MagazinTelefoane\MagazinTelefoane_UI_WindowsForms\obj\Debug\MagazinT.5D54A245.Up2Date
 C:\Users\Valentin Baros\Desktop\PROIECT PIU\MagazinTelefoane\MagazinTelefoane_UI_WindowsForms\obj\Debug\MagazinTelefoane_UI_WindowsForms.exe
 C:\Users\Valentin Baros\Desktop\PROIECT PIU\MagazinTelefoane\MagazinTelefoane_UI_WindowsForms\obj\Debug\MagazinTelefoane_UI_WindowsForms.pdb
+C:\Users\Valentin Baros\Desktop\PROIECT PIU\MagazinTelefoane\MagazinTelefoane_UI_WindowsForms\obj\Debug\MagazinTelefoane_UI_WindowsForms.Form1.resources
+C:\Users\Valentin Baros\Desktop\PROIECT PIU\MagazinTelefoane\MagazinTelefoane_UI_WindowsForms\obj\Debug\MagazinTelefoane_UI_WindowsForms.Form3.resources

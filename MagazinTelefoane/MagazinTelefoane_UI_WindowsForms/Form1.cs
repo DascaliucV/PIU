@@ -11,11 +11,11 @@ namespace MagazinTelefoane_UI_WindowsForms
         private Label lblModel, lblPret, lblCuloare, lblMemorie;
         private Label errModel, errPret, errCuloare, errMemorie;
         private Button btnAdauga, btnRefresh;
+        private CheckBox chkDualSim, chk5G;
         private const int MAX_CARACTERE = 15;
         private const int MAX_MEMORIE = 1024;
         private const int MIN_MEMORIE = 1;
         private const string FISIER = "Telefoane.txt";
-
         private Label[,] tabel;
 
         public Form1()
@@ -27,7 +27,7 @@ namespace MagazinTelefoane_UI_WindowsForms
         private void InitForm()
         {
             this.Text = "Magazin Telefoane";
-            this.Size = new Size(800, 600);
+            this.Size = new Size(850, 700);
             this.StartPosition = FormStartPosition.CenterScreen;
 
             string[] etichete = { "Model", "Preț", "Culoare", "Memorie" };
@@ -72,10 +72,28 @@ namespace MagazinTelefoane_UI_WindowsForms
             errModel = errs[0]; errPret = errs[1];
             errCuloare = errs[2]; errMemorie = errs[3];
 
+            chkDualSim = new CheckBox()
+            {
+                Text = "Dual SIM",
+                Left = 50,
+                Top = 200,
+                Width = 100
+            };
+            this.Controls.Add(chkDualSim);
+
+            chk5G = new CheckBox()
+            {
+                Text = "Suport 5G",
+                Left = 160,
+                Top = 200,
+                Width = 100
+            };
+            this.Controls.Add(chk5G);
+
             btnAdauga = new Button()
             {
-                Text = "Adaugă",
-                Top = 190,
+                Text = "Salvează",
+                Top = 270,
                 Left = 50,
                 Width = 100
             };
@@ -85,27 +103,14 @@ namespace MagazinTelefoane_UI_WindowsForms
             btnRefresh = new Button()
             {
                 Text = "Refresh",
-                Top = 190,
+                Top = 270,
                 Left = 160,
                 Width = 100
             };
             btnRefresh.Click += (s, e) => AfiseazaTabel();
             this.Controls.Add(btnRefresh);
 
-            Button btnCautare = new Button()
-            {
-                Text = "Caută",
-                Top = 190,
-                Left = 270,
-                Width = 100
-            };
-            btnCautare.Click += (s, e) =>
-            {
-                Form2 f2 = new Form2();
-                f2.ShowDialog();
-            };
-            this.Controls.Add(btnCautare);
-
+            // Butonul de Căutare a fost eliminat de aici.
 
             AfiseazaTabel();
         }
@@ -113,7 +118,6 @@ namespace MagazinTelefoane_UI_WindowsForms
         private void BtnAdauga_Click(object sender, EventArgs e)
         {
             bool valid = true;
-
             ResetEtichete();
 
             if (string.IsNullOrWhiteSpace(txtModel.Text) || txtModel.Text.Length > MAX_CARACTERE)
@@ -122,18 +126,21 @@ namespace MagazinTelefoane_UI_WindowsForms
                 errModel.Text = $"Obligatoriu (max {MAX_CARACTERE} caractere)";
                 valid = false;
             }
+
             if (!int.TryParse(txtPret.Text, out int pret) || pret <= 0)
             {
                 lblPret.ForeColor = Color.Red;
                 errPret.Text = "Trebuie să fie un număr pozitiv";
                 valid = false;
             }
+
             if (string.IsNullOrWhiteSpace(txtCuloare.Text) || txtCuloare.Text.Length > MAX_CARACTERE)
             {
                 lblCuloare.ForeColor = Color.Red;
                 errCuloare.Text = $"Obligatoriu (max {MAX_CARACTERE} caractere)";
                 valid = false;
             }
+
             if (!int.TryParse(txtMemorie.Text, out int memorie) || memorie < MIN_MEMORIE || memorie > MAX_MEMORIE)
             {
                 lblMemorie.ForeColor = Color.Red;
@@ -143,7 +150,11 @@ namespace MagazinTelefoane_UI_WindowsForms
 
             if (!valid) return;
 
-            File.AppendAllText(FISIER, $"{txtModel.Text},{pret},{txtCuloare.Text},{memorie}\n");
+            string extra = "";
+            if (chkDualSim.Checked) extra += ",DualSIM";
+            if (chk5G.Checked) extra += ",5G";
+
+            File.AppendAllText(FISIER, $"{txtModel.Text},{pret},{txtCuloare.Text},{memorie}{extra}\n");
             AfiseazaTabel();
             ClearTextBoxes();
         }
@@ -157,30 +168,31 @@ namespace MagazinTelefoane_UI_WindowsForms
         private void ClearTextBoxes()
         {
             txtModel.Text = txtPret.Text = txtCuloare.Text = txtMemorie.Text = "";
+            chkDualSim.Checked = false;
+            chk5G.Checked = false;
         }
 
         private void AfiseazaTabel()
         {
-            // Șterge vechile label-uri
             if (tabel != null)
                 foreach (var lbl in tabel) this.Controls.Remove(lbl);
 
             if (!File.Exists(FISIER)) return;
 
             var linii = File.ReadAllLines(FISIER);
-            tabel = new Label[linii.Length + 1, 4];
-            string[] antet = { "Model", "Preț", "Culoare", "Memorie" };
+            tabel = new Label[linii.Length + 1, 6];
+            string[] antet = { "Model", "Preț", "Culoare", "Memorie", "Dual SIM", "5G" };
 
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < antet.Length; i++)
             {
                 tabel[0, i] = new Label()
                 {
                     Text = antet[i],
                     Font = new Font("Arial", 9, FontStyle.Bold),
-                    Width = 150,
+                    Width = 110,
                     Height = 30,
-                    Left = 50 + i * 160,
-                    Top = 250,
+                    Left = 50 + i * 115,
+                    Top = 320,
                     BackColor = Color.SteelBlue,
                     ForeColor = Color.White,
                     TextAlign = ContentAlignment.MiddleCenter,
@@ -194,15 +206,29 @@ namespace MagazinTelefoane_UI_WindowsForms
                 var date = linii[i].Split(',');
                 if (date.Length < 4) continue;
 
-                for (int j = 0; j < 4; j++)
+                string dualSim = linii[i].Contains("DualSIM") ? "DA" : "NU";
+                string g5 = linii[i].Contains("5G") ? "DA" : "NU";
+
+                for (int j = 0; j < 6; j++)
                 {
+                    string val = "";
+                    switch (j)
+                    {
+                        case 0: val = date[0].Trim(); break;
+                        case 1: val = date[1].Trim() + " lei"; break;
+                        case 2: val = date[2].Trim(); break;
+                        case 3: val = date[3].Trim() + " GB"; break;
+                        case 4: val = dualSim; break;
+                        case 5: val = g5; break;
+                    }
+
                     tabel[i + 1, j] = new Label()
                     {
-                        Text = j == 1 ? date[j].Trim() + " lei" : j == 3 ? date[j].Trim() + " GB" : date[j].Trim(),
-                        Width = 150,
+                        Text = val,
+                        Width = 110,
                         Height = 30,
-                        Left = 50 + j * 160,
-                        Top = 280 + i * 32,
+                        Left = 50 + j * 115,
+                        Top = 350 + i * 32,
                         BackColor = i % 2 == 0 ? Color.White : Color.Lavender,
                         BorderStyle = BorderStyle.FixedSingle,
                         TextAlign = ContentAlignment.MiddleLeft
