@@ -1,0 +1,15 @@
+iPhone 13,2500,verde,32, 5G, iOS
+Samsung,3000,verde,64,DA,5G,Android
+Motorola G15,1500,rosu,16, 5G, Android
+iPhone X,2100,auriu,64, 5G, iOS
+iPhone 13,3000,rosu,128,NU,5G,iOS
+Google Pixel,3100,negru,128, DualSIM, 5G, Android
+iPhone 16,6000,gri,512,DualSIM,5G,iOS
+iPhone 15,5600,alb,256, 5G, iOS
+Alcatel POP4,600,roz,12, DualSIM, Android
+Samsung J3,1000,auriu,16, DualSIM, Android
+iPhone 13,2500,verde,128,5G,iOS
+iPhone 4,500,negru,16, Android, iOS
+iPhone 5,600,auriu,16, iOS
+iPhone 6s,650,argintiu,32, 5G, iOS
+iPhone 7,650,alb,32, 5G, iOS
